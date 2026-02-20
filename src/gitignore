@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data
+data/
+results/
+*.nii
+*.nii.gz
+*.mat
+
+# Colab
+.config/
+*.ipynb_checkpoints/

@@ -1,0 +1,26 @@
+# 7T rs-fMRI Hub Regions Analysis
+
+Pipeline for normative mapping of brain hubs using 7T resting-state fMRI from OpenNeuro ds005747 (N=90 healthy subjects).  
+Uses Nilearn for preprocessing/FC extraction and NetworkX for graph theory centrality measures (Degree, Betweenness, Eigenvector, Participation Coefficient).
+
+## Key Features
+- Combined atlas: Schaefer-100 (cortical) + Tian Scale I (subcortical) + LC probabilistic mask → 117 ROIs
+- Four centrality measures: Degree, Betweenness, Eigenvector, Participation Coefficient
+- Consensus hub detection: Regions in top 10-15% of at least 3/4 indices
+- Results: PCC, Precuneus, Anterior Insula, DLPFC as main hubs; higher subcortical centrality in 7T vs 3T
+- Reproducible in Google Colab Pro+
+
+## Citation
+If you use this pipeline, please cite:  
+Medgh, P. (2026). Identification and Analysis of Brain Hub Regions Using 7T rs-fMRI. Master's Thesis, Islamic Azad University.
+
+## Requirements
+See `requirements.txt`
+
+## How to Run
+1. Clone repo: `git clone https://github.com/YOURUSERNAME/7T-rs-fMRI-Hub-Detection.git`
+2. Download data from: https://openneuro.org/datasets/ds005747
+3. Run `main_pipeline.ipynb` in Colab or locally
+
+## License
+MIT License – feel free to adapt!

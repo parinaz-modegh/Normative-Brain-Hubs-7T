@@ -12,7 +12,7 @@ Uses Nilearn for preprocessing/FC extraction and NetworkX for graph theory centr
 
 ## Citation
 If you use this pipeline, please cite:  
-Modegh, P. (2026). Identification and Analysis of Brain Hub Regions Using 7T rs-fMRI. Master's Thesis, Islamic Azad University.
+Modegh, P. (2026). Identification and Analysis of Brain Hub Regions Using 7T rs-fMRI. Master's Thesis,
 
 ## Requirements
 See `requirements.txt`
